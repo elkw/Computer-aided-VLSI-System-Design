@@ -1,0 +1,18 @@
+module inst_mem (
+	input             i_clk,
+	input             i_rst_n,
+	input  [ 31 : 0 ] i_addr,
+	output [ 31 : 0 ] o_inst
+);	
+`protected
+cVg\P;Vae#e[P^M,3@75&8bF;PQKY[0N\=fZ@?6c@6(LQdFW[N&T-)b&Y7980DH2
+[LB:aa)[BPDIC8/ce_2^(F)N\:=5)>62Qf-6cgXGGgV(b:8gS6^3_<J>K\_b0:0V
+I;[?gM0CC)a^[]@S#J6>N@)RN]P(E768G7#G=7/Q=&4CD,efD6]\eAD[cWT[c0KB
+NRG_U#8_2RM//L0X6,T0e7CNEXR:L9BQcL6G[I5ZTCcT&eSP0>d&FE3XBaLB9VH6
+f^2F?\eXYIRX&HD].N2MTLBKEX0fD,\8UCU<V3:]<GI37Xd35A=+>CV/gHT1_2aQ
+X:-(:Z0B/XaKf:,^HNb<R6Hb0.B2?cHNUFT5,Z##bf<dYPSWc)MgD8g<?F^geSKe
+Rf#VVCLUa(:[&G+S6\4ge]8d#UUJ/<)O\&Bc@B5)/(74cM\>(c4HWD2?/9ET=U<_
+IDe8bVLX/bc?#W7<0>X@JF;>GTK1/D651BT[f>BC0_-R.M)K1XLaHJ#IMgH3Z>08
+P<5?a_6A6>F(&?TQWMOY<;-JQdR@V2+Yb9X;5-9NBUIYNE?71;&GHa#IN$
+`endprotected
+

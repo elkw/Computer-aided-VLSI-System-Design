@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : ml_demodulator
+Version: U-2022.12
+Date   : Mon Jun  5 12:26:02 2023
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db)
+
+Number of ports:                         2470
+Number of nets:                         16027
+Number of cells:                        12857
+Number of combinational cells:           9963
+Number of sequential cells:              2399
+Number of macros/black boxes:               0
+Number of buf/inv:                       1037
+Number of references:                     613
+
+Combinational area:             101255.003167
+Buf/Inv area:                     5051.462330
+Noncombinational area:           73634.907116
+Macro/Black Box area:                0.000000
+Net Interconnect area:         1740302.084961
+
+Total cell area:                174889.910283
+Total area:                    1915191.995244
+1

@@ -1,0 +1,79 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : core
+Version: U-2022.12
+Date   : Tue May  2 13:46:56 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: x_reg[6][6]
+              (rising edge-triggered flip-flop clocked by i_clk)
+  Endpoint: y_reg[1][7]
+            (rising edge-triggered flip-flop clocked by i_clk)
+  Path Group: i_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  core               tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock i_clk (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  x_reg[6][6]/CK (DFFRX4)                  0.00       0.50 r
+  x_reg[6][6]/Q (DFFRX4)                   0.52       1.02 f
+  U6336/Y (AO22X4)                         0.27       1.30 f
+  U2910/Y (INVX3)                          0.08       1.37 r
+  U2767/Y (NAND2X2)                        0.07       1.45 f
+  U4486/Y (OAI221X4)                       0.51       1.95 r
+  U1947/Y (INVX8)                          0.06       2.01 f
+  U6268/Y (OAI31X4)                        0.34       2.36 r
+  U6298/Y (NAND3BX4)                       0.22       2.58 f
+  U1792/Y (AND2X8)                         0.22       2.80 f
+  U6299/Y (OAI222X4)                       0.66       3.45 r
+  U1756/Y (INVX6)                          0.16       3.62 f
+  U3462/Y (NAND2X2)                        0.16       3.78 r
+  U4299/Y (INVX3)                          0.09       3.86 f
+  U2580/Y (AOI31X2)                        0.19       4.06 r
+  U6449/Y (OAI211X2)                       0.16       4.22 f
+  U6450/Y (OAI211X2)                       0.18       4.40 r
+  U4995/Y (AO22X4)                         0.32       4.72 r
+  U3527/Y (INVX8)                          0.09       4.82 f
+  U3526/Y (INVX12)                         0.05       4.87 r
+  U3451/Y (INVX8)                          0.06       4.93 f
+  U3842/Y (OAI222X4)                       0.59       5.52 r
+  U3840/Y (INVX3)                          0.13       5.66 f
+  U6479/Y (NAND2X2)                        0.15       5.81 r
+  U3200/Y (CLKINVX1)                       0.16       5.97 f
+  U3436/Y (AOI2BB1X2)                      0.21       6.18 r
+  U3900/Y (NAND4X4)                        0.12       6.29 f
+  U4621/Y (OA21X4)                         0.18       6.47 f
+  U4355/Y (NAND2X6)                        0.09       6.55 r
+  U3859/Y (NAND2X4)                        0.11       6.66 f
+  U3885/Y (OA22X2)                         0.40       7.06 f
+  U1929/Y (NAND4BX4)                       0.14       7.20 r
+  y_reg[1][7]/D (DFFSRX2)                  0.00       7.20 r
+  data arrival time                                   7.20
+
+  clock i_clk (rise edge)                  7.00       7.00
+  clock network delay (ideal)              0.50       7.50
+  clock uncertainty                       -0.10       7.40
+  y_reg[1][7]/CK (DFFSRX2)                 0.00       7.40 r
+  library setup time                      -0.20       7.20
+  data required time                                  7.20
+  -----------------------------------------------------------
+  data required time                                  7.20
+  data arrival time                                  -7.20
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

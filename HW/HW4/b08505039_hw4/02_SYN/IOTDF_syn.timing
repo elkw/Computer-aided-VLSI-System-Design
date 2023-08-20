@@ -1,0 +1,68 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : IOTDF
+Version: U-2022.12
+Date   : Sat Apr 29 22:26:01 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: iot_in_data_reg[0][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: iot_out_data_y_reg[130]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              1.00       1.00
+  iot_in_data_reg[0][0]/CK (DFFRX1)        0.00       1.00 r
+  iot_in_data_reg[0][0]/Q (DFFRX1)         0.45       1.45 r
+  U3176/Y (NAND2XL)                        0.12       1.57 f
+  U3178/Y (OAI21XL)                        0.24       1.81 r
+  U1706/Y (AOI21XL)                        0.13       1.94 f
+  U3189/Y (OAI21XL)                        0.22       2.17 r
+  U1609/Y (AOI21XL)                        0.13       2.30 f
+  U3243/Y (OAI21XL)                        0.22       2.52 r
+  U1521/Y (AOI21XL)                        0.14       2.66 f
+  U1496/Y (OAI21XL)                        0.27       2.93 r
+  U1107/Y (AOI21XL)                        0.16       3.09 f
+  U1106/Y (OAI21XL)                        0.28       3.37 r
+  U1461/Y (AOI21XL)                        0.16       3.53 f
+  U2338/Y (OAI21XL)                        0.30       3.84 r
+  U3604/Y (AOI21X1)                        0.16       4.00 f
+  U1385/Y (OAI21X1)                        0.19       4.18 r
+  U3609/Y (AOI21X1)                        0.13       4.31 f
+  U1360/Y (OAI21X1)                        0.18       4.48 r
+  U3615/Y (AOI21X1)                        0.13       4.61 f
+  U1358/Y (OAI21X1)                        0.16       4.77 r
+  U1109/Y (AOI21XL)                        0.13       4.91 f
+  U1110/Y (NOR2XL)                         0.19       5.09 r
+  U1357/Y (AND2X1)                         0.18       5.28 r
+  U3620/Y (XOR2X1)                         0.13       5.41 f
+  U3621/Y (OAI2BB1XL)                      0.18       5.59 f
+  iot_out_data_y_reg[130]/D (DFFRX1)       0.00       5.59 f
+  data arrival time                                   5.59
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              1.00       6.00
+  clock uncertainty                       -0.10       5.90
+  iot_out_data_y_reg[130]/CK (DFFRX1)      0.00       5.90 r
+  library setup time                      -0.23       5.67
+  data required time                                  5.67
+  -----------------------------------------------------------
+  data required time                                  5.67
+  data arrival time                                  -5.59
+  -----------------------------------------------------------
+  slack (MET)                                         0.08
+
+
+1
